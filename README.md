@@ -1,5 +1,7 @@
 # GitSetUp
 
+git download and Connect with Android studio by Token 
+
 git init
 git add .
 git commit -am "initial commit"
@@ -9,3 +11,5 @@ git push origin master
 git fetch origin main:tmp
 git rebase tmp
 git push origin HEAD:main
+
+
