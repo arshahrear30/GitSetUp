@@ -19,6 +19,20 @@ Detached HEAD থেকে বের হবে
 Local main branch তৈরি হবে
 Future এ শুধু git push লিখলেই হবে
 
+
+
+Everyday code update workflow
+git add .
+git commit -m "your message"
+git push
+
+
+error rejected (fetch first)
+git pull origin main
+git push
+
+
+
 error text : 
 hint: Updates were rejected because the remote contains work that you do not
 hint: have locally. This is usually caused by another repository pushing to
