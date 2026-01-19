@@ -41,3 +41,6 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Solution : 
 git pull origin main --allow-unrelated-histories
+
+
+
