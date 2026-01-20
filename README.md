@@ -43,5 +43,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Solution : 
 git pull origin main --allow-unrelated-histories
 
+ei ta cmd tey push korley project import file sob nosto hoi jay
 
 
