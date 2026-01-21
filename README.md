@@ -12,6 +12,10 @@ And also as your wish checkout > Generate Token .. > Save this token in your Not
 
 if u open any new project at first add Setting>Version Control>Github>Token
 
+Github new reposit create without README.md file .. 
+
+Android studio terminal code : 
+
 git init
 git checkout -b main
 git add .
