@@ -4,12 +4,31 @@ git download and Connect with Android studio by Token
 
 https://git-scm.com/
 
+Login Github in any Browser 
+
+Go Github Setting>Developer Setting>Personal access tokens >Tokens(classic) >Generate new Token (classic) >
+Expiration (Set as your project deadline at list 30 days extra) >Note(android-studio) > click repo and checkout > 
+And also as your wish checkout > Generate Token .. > Save this token in your Notepad (must)
+
+if u open any new project at first add Setting>Version Control>Github>Token
+
 git init
 git checkout -b main
 git add .
 git commit -m "initial commit"
-git remote add origin 'https://github.com/arshahrear30/miniexel.git'
+git branch -M main
+git remote add origin 'https://github.com/arshahrear30/task_manager.git'
 git push -u origin main
+
+
+
+Everyday code update workflow
+git add .
+git commit -m "your message"
+git remote add origin https://github.com/arshahrear30/task_manager.git
+git branch -M main
+git push -u origin main
+
 
 
 
@@ -20,12 +39,6 @@ Detached HEAD থেকে বের হবে
 Local main branch তৈরি হবে
 Future এ শুধু git push লিখলেই হবে
 
-
-
-Everyday code update workflow
-git add .
-git commit -m "your message"
-git push
 
 
 
