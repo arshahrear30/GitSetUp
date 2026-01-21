@@ -28,6 +28,15 @@ git commit -m "your message"
 git push
 
 
+
+2nd bar onek somoy error hoy tai : 
+git config --global credential.helper manager-core
+
+er por onek somoy error vavey set hoi tai :
+git config --global --unset credential.helper // eta maney purber setup reset hoy ..
+git config --global credential.helper store
+
+
 error rejected (fetch first)
 git pull origin main
 git push
