@@ -41,8 +41,7 @@ hint: the same ref. If you want to integrate the remote changes, use
 hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Solution : 
-git pull origin main --allow-unrelated-histories
+git pull origin main --allow-unrelated-histories   // এটা দিলে ফাইলগুলো নষ্ট হয়ে যায় কারণ দুইটা ফাইল একসাথে করার চেষ্টা করে
 
-ei ta cmd tey push korley project import file sob nosto hoi jay
 
 
