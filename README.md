@@ -34,7 +34,7 @@ git branch -M main
 git push -u origin main
 
 
-
+এটা দিয়ে যতবার খুশি আপডেট করা যায়। 
 
 git checkout -b main
 git push -u origin main
