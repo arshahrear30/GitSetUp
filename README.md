@@ -1,7 +1,7 @@
 # GitSetUp
 
-git download and Connect with Android studio by Token 
-mz
+git download and install folder and Connect with Android studio by Token 
+
 https://git-scm.com/
 
 Login Github in any Browser 
