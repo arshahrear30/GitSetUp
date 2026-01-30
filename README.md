@@ -28,8 +28,7 @@ git push -u origin main
 
 Everyday code update workflow
 git add .
-git commit -m "your message"
-git remote add origin https://github.com/arshahrear30/task_manager.git
+git commit -m "new message"
 git branch -M main
 git push -u origin main
 
