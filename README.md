@@ -24,6 +24,7 @@ git branch -M main
 git remote add origin 'https://github.com/arshahrear30/task_manager.git'
 git push -u origin main
 
+এটা করলেই git connect হই থাকবে।  
 
 
 Everyday code update workflow
