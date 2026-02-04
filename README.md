@@ -36,6 +36,18 @@ git push -u origin main
 
 এটা দিয়ে যতবার খুশি আপডেট করা যায়। 
 
+
+onek somoy dekha jay github online e code update kori tailey porey kintu Everyday code dilay kaz kore na .. tokon .. 
+git add .
+git commit -m "if github"
+git branch -M main
+git pull origin main
+git push origin main
+
+
+
+
+
 git checkout -b main
 git push -u origin main
 
