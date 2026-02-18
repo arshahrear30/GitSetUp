@@ -14,7 +14,7 @@ if u open any new project at first add Setting>Version Control>Github>Token
 
 Github new reposit create without README.md file .. 
 
-Android studio terminal code : 
+----Android studio terminal code : 
 
 git init
 git checkout -b main
@@ -27,7 +27,7 @@ git push -u origin main
 এটা করলেই git connect হই থাকবে।  
 
 
-Everyday code update workflow
+----Everyday code** update workflow
 git add .
 git commit -m "new message"
 git branch -M main
@@ -37,7 +37,7 @@ git push -u origin main
 এটা দিয়ে যতবার খুশি আপডেট করা যায়। 
 
 
-onek somoy dekha jay github online e code update kori tailey porey kintu Everyday code dilay kaz kore na .. tokon .. 
+----অনেক সময় দেখা যায় GitHub online এ code update করি তাহলে পরে কিন্তু Everyday code** দিলে কাজ করে না .. তখন ..
 git add .
 git commit -m "if github"
 git branch -M main
