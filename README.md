@@ -30,7 +30,7 @@ git push -u origin main
 
 ----Everyday code** update workflow
 git add .
-git commit -m "new message"
+git commit -m "concept code"
 git branch -M main
 git push -u origin main
 
