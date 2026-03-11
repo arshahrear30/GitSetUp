@@ -1,5 +1,6 @@
 # GitSetUp
 
+Update yes
 
 git download and install folder and Connect with Android studio by Token 
 
