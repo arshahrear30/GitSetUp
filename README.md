@@ -15,6 +15,8 @@ if u open any new project at first add Setting>Version Control>Github>Token
 
 Github new reposit create without README.md file .. 
 
+🔥README.md ফাইল ছাড়া গিটহাবে নতুন রিপোজিটরি তৈরি করতে হবে। তা না হলে নিচের কোড গুলো কাজ করবে না। 
+
 ----Android studio terminal code : 
 
 git init
@@ -22,7 +24,7 @@ git checkout -b main
 git add .
 git commit -m "initial commit"
 git branch -M main
-git remote add origin 'https://github.com/arshahrear30/task_manager.git'
+git remote add origin 'https://github.com/arshahrear30/live_class_project.git'
 git push -u origin main
 
 এটা করলেই git connect হই থাকবে।  
