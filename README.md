@@ -84,5 +84,8 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Solution : 
 git pull origin main --allow-unrelated-histories   // এটা দিলে ফাইলগুলো নষ্ট হয়ে যায় কারণ দুইটা ফাইল একসাথে করার চেষ্টা করে
 
-
+অনেক সময় দেখা যায় কোন একটি প্রজেক্ট মধ্যে অন্য একটি প্রজেক্টের ফাইল কমিট করে ফেলি সেক্ষেত্রে লাস্ট কমিট রিমুভ করার জন্য আমরা ব্যবহার করতে পারি :::
+git reflog //এটা দিয়ে সেই কমিটির প্রথমে আইডিটা বের করতে হবে তারপর সে আইডিটা HEAD বসাতে হবে 
+git reset --hard id^
+git push origin main --force //Done ..
 
