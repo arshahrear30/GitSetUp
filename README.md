@@ -89,3 +89,17 @@ git reflog //এটা দিয়ে সেই কমিটির প্রথ
 git reset --hard id^
 git push origin main --force //Done ..
 
+
+একই Android Studio প্রজেক্ট এর ভিতরে যদি আগের প্রজেক্টর ফাইল গুলো ডিলিট করে প্রজেক্ট নতুন একটা প্রজেক্ট প্র্যাকটিস করি ..সেক্ষেত্রে  নতুন প্রজেক্ট  রাখতে হবে নতুন  গিটহাব রিপো তে..   তাই আগের গিটহাব  রিপো  ডিসকানেক্ট করা.. এরপর আগের মতই সেম 
+
+Remove-Item -Recurse -Force .git  //Disconnect  code
+
+এরপর আগের মতই সেম 
+git init
+git checkout -b main
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin 'https://github.com/arshahrear30/live_class_project.git'
+git push -u origin main
+
