@@ -40,18 +40,24 @@ Repository Pattern-এর সুবিধা:
 
 ViewModel এবং UI-এর কোনো পরিবর্তন লাগবে না।
 
-Data Flow:
+## Data Flow:
 
 View (Customer/UI)
+
 ↓
 ViewModel / State Holder (Waiter)
+
 ↓
 Repository (Data Manager)
+
 ↓
 API / Firebase / Database / Cache
+
 ↓
 Model (Food/Data)
+
 ↓
 ViewModel
+
 ↓
 View
