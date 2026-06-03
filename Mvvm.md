@@ -59,6 +59,8 @@ Model (Food/Data)
 
 ViewModel
 
+↓
+View
 
 
 ## Modern App-এ অবশ্যই থাকা উচিত -- 
@@ -98,16 +100,3 @@ ViewModel
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-↓
-View
